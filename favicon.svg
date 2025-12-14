@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fundo branco/transparente -->
+  <rect width="100" height="100" fill="white"/>
+  
+  <!-- Engrenagem (Gear) -->
+  <g transform="translate(50, 50)">
+    <!-- Círculo externo da engrenagem -->
+    <path d="M 0 -35 L 8 -32 L 10 -40 L 16 -36 L 14 -28 L 22 -26 L 22 -16 L 14 -14 L 16 -6 L 10 -2 L 8 -10 L 0 -7 L 0 7 L 8 10 L 10 2 L 16 6 L 14 14 L 22 16 L 22 26 L 14 28 L 16 36 L 10 40 L 8 32 L 0 35 L 0 25 L -8 22 L -10 30 L -16 26 L -14 18 L -22 16 L -22 6 L -14 4 L -16 -4 L -10 -8 L -8 0 L 0 -3 Z" fill="#002D5B" transform="rotate(0)"/>
+    <!-- Círculo interno da engrenagem -->
+    <circle cx="0" cy="0" r="12" fill="white"/>
+    <!-- Sinal de mais (Plus) no centro -->
+    <rect x="-3" y="-12" width="6" height="24" fill="#007bff" rx="1"/>
+    <rect x="-12" y="-3" width="24" height="6" fill="#007bff" rx="1"/>
+  </g>
+</svg>
+
